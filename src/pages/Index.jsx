@@ -48,6 +48,42 @@ const Index = () => {
             </CardContent>
           </Card>
         </section>
+        <Separator className="my-8" />
+        <section className="text-center mb-8">
+          <h2 className="text-3xl font-semibold mb-4">Wooden Boat Construction</h2>
+          <p className="text-lg text-gray-700 mb-8">
+            Take a look at the process of constructing a wooden boat from start to finish.
+          </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <Card>
+              <CardHeader>
+                <CardTitle>Initial Stages</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <img src="/images/boat-construction-1.jpg" alt="Initial stages of wooden boat construction" className="w-full h-auto mb-4" />
+                <p>Wooden planks being assembled on a frame.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Craftsmanship</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <img src="/images/boat-construction-2.jpg" alt="Craftsmen working on the hull" className="w-full h-auto mb-4" />
+                <p>Craftsmen working on the hull of the boat.</p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>Finishing Touches</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <img src="/images/boat-construction-3.jpg" alt="Final stages of construction" className="w-full h-auto mb-4" />
+                <p>The boat nearly complete and ready for finishing touches.</p>
+              </CardContent>
+            </Card>
+          </div>
+        </section>
       </main>
       <footer className="w-full bg-blue-800 text-white py-4">
         <div className="container mx-auto px-4 text-center">
